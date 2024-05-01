@@ -1,0 +1,31 @@
+.education {
+    margin: 30px 0px 0px 160px;
+    background-color: rgba(128,128,128,0.101);
+}
+
+.contact hr {
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.contact h2 {
+    color: #138781;
+    font-weight: 300px;
+}
+.education .vertical-timeline-element-title{
+color: #138781;
+}
+.education .vertical-timeline-element-subtitle {
+    color: #1e1e2c;
+}
+@media(max-width:600px){
+    .education{
+        padding: 0;
+        margin: 0;
+    }
+    .education hr {
+            width: 275px;
+            margin-left:40px;
+    }
+}

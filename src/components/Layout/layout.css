@@ -1,0 +1,50 @@
+.sidebar-section{
+    background-color:black;
+    height: 500px;
+    width:auto;
+    margin-top: -100px;
+    display:flex;
+}
+
+/* ===Navbar Arrow Box=== */
+.sidebar-toggle-icons p {
+    display: flex;
+    align-items: right;
+    height: 32px;
+    justify-content: right;
+    cursor: pointer;
+    margin-top: 140px;
+}
+/* ===Navbar image=== */
+.sidebar-toggle-icons p svg {
+    color: white;
+    background-color: #f29f67;
+}
+/* ===Navbar1=== */
+.sidebar-section .sidebar-toggle {
+    width: 200px;
+    height: 980px;
+    background-color: #1e1e2c;
+    position:fixed;
+}
+
+/* ===Navbar2=== */
+.sidebar-section .sidebar{
+    width: 120px;
+    height: 980px;
+    background-color: #1e1e2c;
+    position: fixed;
+}
+
+
+@media(max-width:600px){
+        .sidebar-section .sidebar-toggle {
+            display: none;
+        }
+        .sidebar-section .sidebar {
+            display:none;
+        }
+}
+
+
+
