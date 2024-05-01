@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import Profile from "/Users/vishalkushwah/PROJECT/client/src/assets/Images/Profile.jpeg";
 const About = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwlHfshac030qciST5MDn_cIEE6-jMLTc0DOn00UuhPw&s"
+              src={Profile}
               alt="profile-pic"
             />
           </div>
